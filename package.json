@@ -4,6 +4,9 @@
   "description": "Extract the Info.Plist from an IPA",
   "repository": "nowsecure/ipa-extract-info",
   "license": "MIT",
+  "bin": {
+    "ipainfo": "./bin/index.js"
+  },
   "files": [
     "lib/"
   ],
